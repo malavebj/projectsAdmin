@@ -60,7 +60,8 @@ class UserPolicy
      */
     public function update(User $authUser, User $user)
     {
-        return $user->hasPermissionTo('UpdateUsers');
+        return true;
+        //return $user->hasPermissionTo('UpdateUsers');
     }
 
     /**

@@ -1,0 +1,33 @@
+PHPUnit 9.5.28 by Sebastian Bergmann and contributors.
+
+..............F......FF.                                          24 / 24 (100%)
+
+Time: 00:04.885, Memory: 42.50 MB
+
+There were 3 failures:
+
+1) Tests\Feature\Auth\PasswordUpdateTest::test_password_can_be_updated
+Failed asserting that false is true.
+
+/var/www/projectsAdmin/tests/Feature/Auth/PasswordUpdateTest.php:32
+
+2) Tests\Feature\ProfileTest::test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged
+Failed asserting that null is not null.
+
+/var/www/projectsAdmin/tests/Feature/ProfileTest.php:64
+
+3) Tests\Feature\ProfileTest::test_user_can_delete_their_account
+Session has unexpected errors: 
+
+{
+    "userDeletion": [
+        "The password is incorrect."
+    ]
+}
+Failed asserting that true is false.
+
+/var/www/projectsAdmin/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1402
+/var/www/projectsAdmin/tests/Feature/ProfileTest.php:79
+
+FAILURES!
+Tests: 24, Assertions: 52, Failures: 3.

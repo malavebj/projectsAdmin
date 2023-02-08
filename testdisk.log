@@ -1,0 +1,579 @@
+
+
+Tue Feb  7 16:44:33 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-58-generic (#64~20.04.1-Ubuntu SMP Fri Jan 6 16:42:31 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'es_VE.UTF-8'.
+
+
+Tue Feb  7 16:44:33 2023
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-58-generic (#64~20.04.1-Ubuntu SMP Fri Jan 6 16:42:31 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       312581808 sectors
+/dev/sda: user_max   312581808 sectors
+/dev/sda: native_max 312581808 sectors
+/dev/sda: dco        312581808 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop24 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 160 GB / 149 GiB - CHS 19457 255 63, sector size=512 - ExcelStor Technology J8160S, S/N:PVF904Q4ADJUVB, FW:P22OABEA
+Disk /dev/loop0 - 77 MB / 73 MiB - 151512 sectors (RO), sector size=512
+Disk /dev/loop1 - 80 MB / 77 MiB - 157808 sectors (RO), sector size=512
+Disk /dev/loop10 - 172 MB / 164 MiB - 337424 sectors (RO), sector size=512
+Disk /dev/loop11 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop12 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop13 - 363 MB / 346 MiB - 709280 sectors (RO), sector size=512
+Disk /dev/loop14 - 363 MB / 346 MiB - 709216 sectors (RO), sector size=512
+Disk /dev/loop15 - 85 MB / 81 MiB - 166424 sectors (RO), sector size=512
+Disk /dev/loop16 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop17 - 197 MB / 188 MiB - 385728 sectors (RO), sector size=512
+Disk /dev/loop18 - 77 MB / 73 MiB - 150640 sectors (RO), sector size=512
+Disk /dev/loop19 - 77 MB / 73 MiB - 150616 sectors (RO), sector size=512
+Disk /dev/loop2 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop20 - 48 MB / 45 MiB - 94064 sectors (RO), sector size=512
+Disk /dev/loop21 - 48 MB / 45 MiB - 94056 sectors (RO), sector size=512
+Disk /dev/loop22 - 52 MB / 49 MiB - 101624 sectors (RO), sector size=512
+Disk /dev/loop23 - 52 MB / 49 MiB - 102048 sectors (RO), sector size=512
+Disk /dev/loop3 - 88 MB / 84 MiB - 173648 sectors (RO), sector size=512
+Disk /dev/loop4 - 88 MB / 84 MiB - 173680 sectors (RO), sector size=512
+Disk /dev/loop5 - 58 MB / 55 MiB - 113888 sectors (RO), sector size=512
+Disk /dev/loop6 - 66 MB / 63 MiB - 129496 sectors (RO), sector size=512
+Disk /dev/loop7 - 66 MB / 63 MiB - 129584 sectors (RO), sector size=512
+Disk /dev/loop8 - 58 MB / 55 MiB - 113888 sectors (RO), sector size=512
+Disk /dev/loop9 - 170 MB / 162 MiB - 333552 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/sda - 160 GB / 149 GiB - ExcelStor Technology J8160S
+Partition table type: Intel
+
+Analyse Disk /dev/sda - 160 GB / 149 GiB - CHS 19457 255 63
+Geometry from i386 MBR: head=255 sector=2
+BAD_RS LBA=2048 64512
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+set_FAT_info: name from BS used
+BAD_RS LBA=1052670 16450498
+BAD_RS LBA=1052672 16450498
+Current partition structure:
+ 1 * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+
+Bad relative sector.
+ 2 E extended                65 134  4 19457  53 52  311527426
+
+Bad relative sector.
+ 5 L Linux                   65 134  6 19457  53 52  311527424
+
+Bad relative sector.
+
+search_part()
+Disk /dev/sda - 160 GB / 149 GiB - CHS 19457 255 63
+FAT32 at 0/32/33
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+set_FAT_info: name from BS used
+
+FAT32 at 0/32/33
+FAT: cluster=2(0x2), pos=4128
+     FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+
+recover_EXT2: s_block_group_nr=0/1188, s_mnt_count=1353/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Last mount time:    Tue Feb  7 07:12:40 2023
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+
+Results
+   * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+   P Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 1048576 linear /dev/sda 2048" | dmsetup create test0
+echo "0 311527424 linear /dev/sda 1052672" | dmsetup create test1
+
+interface_write()
+ 1 * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+ 2 P Linux                   65 134  6 19457  53 52  311527424
+
+search_part()
+Disk /dev/sda - 160 GB / 149 GiB - CHS 19457 255 63
+FAT32 at 0/32/33
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+set_FAT_info: name from BS used
+
+FAT32 at 0/32/33
+FAT: cluster=2(0x2), pos=4128
+     FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+FAT32 at 0/32/39
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+set_FAT_info: name from BS used
+
+FAT32 at 0/32/39
+FAT: cluster=2(0x2), pos=4128
+     FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+
+recover_EXT2: s_block_group_nr=0/1188, s_mnt_count=1353/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Last mount time:    Tue Feb  7 07:12:40 2023
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Backup_SB, 159 GB / 148 GiB
+     Linux Swap              82 220 11   343 241 10    4194288
+     SWAP2 version 1, pagesize=4096, 2147 MB / 2047 MiB
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Backup_SB, 159 GB / 148 GiB
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Backup_SB, 159 GB / 148 GiB
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Backup_SB, 159 GB / 148 GiB
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Backup_SB, 159 GB / 148 GiB
+Search for partition aborted
+
+Results
+   * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+     Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+     Linux Swap              82 220 11   343 241 26    4194304
+     SWAP2 version 1, pagesize=4096, 2147 MB / 2048 MiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 1048576 linear /dev/sda 2048" | dmsetup create test0
+echo "0 311527424 linear /dev/sda 1052672" | dmsetup create test1
+echo "0 4194304 linear /dev/sda 1331200" | dmsetup create test2
+
+interface_write()
+ 
+No partition found or selected for recovery
+simulate write!
+
+write_mbr_i386: starting...
+write_all_log_i386: starting...
+No extended partition
+New options :
+ Dump : No
+ Align partition: Yes
+ Expert mode : No
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=2
+BAD_RS LBA=2048 64512
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+set_FAT_info: name from BS used
+BAD_RS LBA=1052670 16450498
+BAD_RS LBA=1052672 16450498
+ 1 * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+ 2 E extended                65 134  4 19457  53 52  311527426
+ 5 L Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+
+fat32_boot_sector
+ 1 * FAT32                    0  32 33    65 101 36    1048576 [NO NAME]
+     FAT32, blocksize=4096, 536 MB / 512 MiB
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+FAT32 at 0/32/33
+Info: size boot_sector 1048576, partition 1048576
+FAT1 : 32-1055
+FAT2 : 1056-2079
+start_rootdir : 2080 root cluster : 2
+Data : 2080-1048575
+sectors : 1048576
+cluster_size : 8
+no_of_cluster : 130812 (2 - 130813)
+fat_length 1024 calculated 1022
+Boot sector
+OK
+
+Backup boot sector
+OK
+
+First sectors (boot code and partition information) are not identical.
+Second sectors (cluster information) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/1188, s_mnt_count=1353/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Last mount time:    Tue Feb  7 07:12:40 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+block_group_nr 25
+
+recover_EXT2: "e2fsck -b 819200 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=25/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+block_group_nr 49
+
+recover_EXT2: "e2fsck -b 1605632 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=49/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+block_group_nr 81
+
+recover_EXT2: "e2fsck -b 2654208 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=81/1188, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 38940928
+recover_EXT2: part_size 311527424
+Filesystem created: Thu Jun 25 18:28:03 2020
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                   65 134  6 19457  53 52  311527424
+superblock 0, blocksize=4096 []
+superblock 32768, blocksize=4096 []
+superblock 98304, blocksize=4096 []
+superblock 163840, blocksize=4096 []
+superblock 229376, blocksize=4096 []
+superblock 294912, blocksize=4096 []
+superblock 819200, blocksize=4096 []
+superblock 884736, blocksize=4096 []
+superblock 1605632, blocksize=4096 []
+superblock 2654208, blocksize=4096 []
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+
+dir_partition inode=2
+ 5 L Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 13-Sep-2020 18:46 .
+       2 drwxr-xr-x     0      0      4096 13-Sep-2020 18:46 ..
+      11 drwx------     0      0     16384 25-Jun-2020 18:28 lost+found
+ 2490369 drwxr-xr-x     0      0      4096 15-Jan-2023 06:37 boot
+      12 -rw-------     0      0 2147483648 25-Jun-2020 18:28 swapfile
+ 6029313 drwxr-xr-x     0      0     12288  7-Feb-2023 08:07 etc
+ 7733249 drwxr-xr-x     0      0      4096 21-Sep-2020 06:27 media
+ 1835009 drwxr-xr-x     0      0      4096  7-Feb-2023 16:43 var
+      13 lrwxrwxrwx     0      0         7 25-Jun-2020 18:29 bin
+ 2621441 drwxr-xr-x     0      0      4096 13-Sep-2020 18:10 dev
+ 6684673 drwxr-xr-x     0      0      4096 21-Sep-2020 06:27 home
+      14 lrwxrwxrwx     0      0         7 25-Jun-2020 18:29 lib
+      15 lrwxrwxrwx     0      0         9 25-Jun-2020 18:29 lib32
+      16 lrwxrwxrwx     0      0         9 25-Jun-2020 18:29 lib64
+      17 lrwxrwxrwx     0      0        10 25-Jun-2020 18:29 libx32
+ 3538945 drwxr-xr-x     0      0      4096 23-Apr-2020 03:32 mnt
+ 5373953 drwxr-xr-x     0      0      4096 12-Oct-2022 10:48 opt
+ 1048577 drwxr-xr-x     0      0      4096 15-Apr-2020 07:09 proc
+ 1572865 drwx------     0      0      4096  3-Jan-2023 08:57 root
+ 1966081 drwxr-xr-x     0      0      4096 13-Sep-2020 18:10 run
+      18 lrwxrwxrwx     0      0         8 25-Jun-2020 18:29 sbin
+  655361 drwxr-xr-x     0      0      4096 14-Nov-2022 15:59 snap
+ 6160385 drwxr-xr-x     0      0      4096 23-Apr-2020 03:32 srv
+ 5505025 drwxr-xr-x     0      0      4096 15-Apr-2020 07:09 sys
+ 4718593 drwxrwxrwt     0      0     24576  7-Feb-2023 16:39 tmp
+ 1179649 drwxr-xr-x     0      0      4096 23-Apr-2020 03:34 usr
+ 6815745 drwxrwxr-x     0      0      4096 25-Jun-2020 18:32 cdrom
+X     19 -rw-r--r--     0      0         0 13-Sep-2020 18:44 forcefsck
+
+dir_partition inode=1835009
+ 5 L Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+Directory /var
+ 1835009 drwxr-xr-x     0      0      4096  7-Feb-2023 16:43 .
+       2 drwxr-xr-x     0      0      4096 13-Sep-2020 18:46 ..
+ 1835010 drwxr-xr-x     0      0      4096 21-Jan-2022 21:53 cache
+ 1842003 drwxr-xr-x     0      0      4096  7-Feb-2023 07:18 backups
+ 1842004 drwxrwsrwt     0    125      4096  7-Feb-2023 16:36 crash
+ 1842005 drwxr-xr-x     0      0      4096 25-Oct-2022 08:55 lib
+ 1842006 drwxrwsr-x     0     50      4096 15-Apr-2020 07:09 local
+ 1842007 lrwxrwxrwx     0      0         9 25-Jun-2020 18:31 lock
+ 1842008 drwxrwxr-x     0    110      4096  7-Feb-2023 07:15 log
+ 1842009 drwxrwsr-x     0      8      4096 23-Apr-2020 03:32 mail
+ 1842010 drwxrwsrwt     0    125      4096 23-Apr-2020 03:38 metrics
+ 1842011 drwxr-xr-x     0      0      4096 23-Apr-2020 03:32 opt
+ 1842012 lrwxrwxrwx     0      0         4 25-Jun-2020 18:31 run
+ 1842013 drwxr-xr-x     0      0      4096 14-Nov-2022 15:59 snap
+ 1842014 drwxr-xr-x     0      0      4096 23-Apr-2020 03:36 spool
+ 1842015 drwxrwxrwt     0      0      4096  7-Feb-2023 16:39 tmp
+ 1969783 drwxr-xr-x  1000     33      4096  2-Feb-2023 06:58 www
+
+dir_partition inode=1969783
+ 5 L Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+Directory /var/www
+ 1969783 drwxr-xr-x  1000     33      4096  2-Feb-2023 06:58 .
+ 1835009 drwxr-xr-x     0      0      4096  7-Feb-2023 16:43 ..
+ 3412925 drwxrwxr-x  1000   1000      4096 26-Jan-2023 09:31 .git
+ 2023505 drwxrwxr-x  1000   1000      4096  7-Feb-2023 13:30 projectsAdmin
+ 2916677 drwxrwxr-x  1000   1000      4096 15-Jul-2022 17:19 recargateSMS
+ 2040011 drwxrwxr-x  1000   1000      4096  1-Feb-2023 10:13 invoices
+ 2032736 drwxr-xr-x     0      0      4096 23-Jan-2023 14:36 html
+ 1975077 drwxrwxr-x  1000   1000      4096 10-Mar-2022 11:47 LegalNexus
+ 1991050 drwxrwxr-x  1000   1000      4096 10-Mar-2022 13:37 AMA
+ 1998859 drwxrwxr-x  1000   1000      4096 10-Mar-2022 12:39 FE
+ 1999226 drwxrwxr-x  1000   1000      4096 10-Mar-2022 16:16 principeAzul
+ 1999238 drwxrwxr-x  1000   1000      4096 20-Jan-2023 11:41 ebitMarket
+ 1999764 drwxrwxr-x  1000   1000      4096 10-Mar-2022 16:19 innerCron
+ 2008265 drwxrwxr-x  1000   1000      4096 20-Jan-2023 11:38 rutas
+ 2015631 drwxrwxr-x  1000   1000      4096 10-Mar-2022 13:46 base_apps
+ 2023612 drwxrwxr-x  1000   1000      4096 11-Mar-2022 08:06 TDC
+
+dir_partition inode=2032736
+ 5 L Linux                   65 134  6 19457  53 52  311527424
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 159 GB / 148 GiB
+Directory /var/www/html
+ 2032736 drwxr-xr-x     0      0      4096 23-Jan-2023 14:36 .
+ 1969783 drwxr-xr-x  1000     33      4096  2-Feb-2023 06:58 ..
+Directory /var/www
+ 1969783 drwxr-xr-x  1000     33      4096  2-Feb-2023 06:58 .
+ 1835009 drwxr-xr-x     0      0      4096  7-Feb-2023 16:43 ..
+ 3412925 drwxrwxr-x  1000   1000      4096 26-Jan-2023 09:31 .git
+ 2023505 drwxrwxr-x  1000   1000      4096  7-Feb-2023 13:30 projectsAdmin
+ 2916677 drwxrwxr-x  1000   1000      4096 15-Jul-2022 17:19 recargateSMS
+ 2040011 drwxrwxr-x  1000   1000      4096  1-Feb-2023 10:13 invoices
+ 2032736 drwxr-xr-x     0      0      4096 23-Jan-2023 14:36 html
+ 1975077 drwxrwxr-x  1000   1000      4096 10-Mar-2022 11:47 LegalNexus
+ 1991050 drwxrwxr-x  1000   1000      4096 10-Mar-2022 13:37 AMA
+ 1998859 drwxrwxr-x  1000   1000      4096 10-Mar-2022 12:39 FE
+ 1999226 drwxrwxr-x  1000   1000      4096 10-Mar-2022 16:16 principeAzul
+ 1999238 drwxrwxr-x  1000   1000      4096 20-Jan-2023 11:41 ebitMarket
+ 1999764 drwxrwxr-x  1000   1000      4096 10-Mar-2022 16:19 innerCron
+ 2008265 drwxrwxr-x  1000   1000      4096 20-Jan-2023 11:38 rutas
+ 2015631 drwxrwxr-x  1000   1000      4096 10-Mar-2022 13:46 base_apps
+ 2023612 drwxrwxr-x  1000   1000      4096 11-Mar-2022 08:06 TDC
+Directory /var
+ 1835009 drwxr-xr-x     0      0      4096  7-Feb-2023 16:43 .
+       2 drwxr-xr-x     0      0      4096 13-Sep-2020 18:46 ..
+ 1835010 drwxr-xr-x     0      0      4096 21-Jan-2022 21:53 cache
+ 1842003 drwxr-xr-x     0      0      4096  7-Feb-2023 07:18 backups
+ 1842004 drwxrwsrwt     0    125      4096  7-Feb-2023 16:36 crash
+ 1842005 drwxr-xr-x     0      0      4096 25-Oct-2022 08:55 lib
+ 1842006 drwxrwsr-x     0     50      4096 15-Apr-2020 07:09 local
+ 1842007 lrwxrwxrwx     0      0         9 25-Jun-2020 18:31 lock
+ 1842008 drwxrwxr-x     0    110      4096  7-Feb-2023 07:15 log
+ 1842009 drwxrwsr-x     0      8      4096 23-Apr-2020 03:32 mail
+ 1842010 drwxrwsrwt     0    125      4096 23-Apr-2020 03:38 metrics
+ 1842011 drwxr-xr-x     0      0      4096 23-Apr-2020 03:32 opt
+ 1842012 lrwxrwxrwx     0      0         4 25-Jun-2020 18:31 run
+ 1842013 drwxr-xr-x     0      0      4096 14-Nov-2022 15:59 snap
+ 1842014 drwxr-xr-x     0      0      4096 23-Apr-2020 03:36 spool
+ 1842015 drwxrwxrwt     0      0      4096  7-Feb-2023 16:39 tmp
+ 1969783 drwxr-xr-x  1000     33      4096  2-Feb-2023 06:58 www
+Directory /
+       2 drwxr-xr-x     0      0      4096 13-Sep-2020 18:46 .
+       2 drwxr-xr-x     0      0      4096 13-Sep-2020 18:46 ..
+      11 drwx------     0      0     16384 25-Jun-2020 18:28 lost+found
+ 2490369 drwxr-xr-x     0      0      4096 15-Jan-2023 06:37 boot
+      12 -rw-------     0      0 2147483648 25-Jun-2020 18:28 swapfile
+ 6029313 drwxr-xr-x     0      0     12288  7-Feb-2023 08:07 etc
+ 7733249 drwxr-xr-x     0      0      4096 21-Sep-2020 06:27 media
+ 1835009 drwxr-xr-x     0      0      4096  7-Feb-2023 16:43 var
+      13 lrwxrwxrwx     0      0         7 25-Jun-2020 18:29 bin
+ 2621441 drwxr-xr-x     0      0      4096 13-Sep-2020 18:10 dev
+ 6684673 drwxr-xr-x     0      0      4096 21-Sep-2020 06:27 home
+      14 lrwxrwxrwx     0      0         7 25-Jun-2020 18:29 lib
+      15 lrwxrwxrwx     0      0         9 25-Jun-2020 18:29 lib32
+      16 lrwxrwxrwx     0      0         9 25-Jun-2020 18:29 lib64
+      17 lrwxrwxrwx     0      0        10 25-Jun-2020 18:29 libx32
+ 3538945 drwxr-xr-x     0      0      4096 23-Apr-2020 03:32 mnt
+ 5373953 drwxr-xr-x     0      0      4096 12-Oct-2022 10:48 opt
+ 1048577 drwxr-xr-x     0      0      4096 15-Apr-2020 07:09 proc
+ 1572865 drwx------     0      0      4096  3-Jan-2023 08:57 root
+ 1966081 drwxr-xr-x     0      0      4096 13-Sep-2020 18:10 run
+      18 lrwxrwxrwx     0      0         8 25-Jun-2020 18:29 sbin
+  655361 drwxr-xr-x     0      0      4096 14-Nov-2022 15:59 snap
+ 6160385 drwxr-xr-x     0      0      4096 23-Apr-2020 03:32 srv
+ 5505025 drwxr-xr-x     0      0      4096 15-Apr-2020 07:09 sys
+ 4718593 drwxrwxrwt     0      0     24576  7-Feb-2023 16:39 tmp
+ 1179649 drwxr-xr-x     0      0      4096 23-Apr-2020 03:34 usr
+ 6815745 drwxrwxr-x     0      0      4096 25-Jun-2020 18:32 cdrom
+X     19 -rw-r--r--     0      0         0 13-Sep-2020 18:44 forcefsck
+
+TestDisk exited normally.
